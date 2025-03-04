@@ -8,14 +8,14 @@ jobs:
     runs-on: windows-latest
  
     env:
-      solution: './EmailComponent.sln'  # Explicitly specify the solution file if needed
+      solution: 'MySolution.sln'  # Explicitly specify the solution file if needed
       buildPlatform: 'Any CPU'
       buildConfiguration: 'Release'
  
     steps:
       # Set up NuGet
       - name: Set up NuGet
-        # uses: NuGet/setup-nuget@v1
+        uses: NuGet/setup-nuget@v1
  
       # Restore NuGet packages
       - name: Restore NuGet packages
@@ -28,8 +28,7 @@ jobs:
  
       # Publish build artifacts
       - name: Publish Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
           name: EmailcomponentArtifacts
           path: ${{ github.workspace }}/artifacts
- 
