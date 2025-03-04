@@ -15,7 +15,7 @@ jobs:
     steps:
       # Set up NuGet
       - name: Set up NuGet
-        uses: NuGet/setup-nuget@v1
+        # uses: NuGet/setup-nuget@v1
  
       # Restore NuGet packages
       - name: Restore NuGet packages
