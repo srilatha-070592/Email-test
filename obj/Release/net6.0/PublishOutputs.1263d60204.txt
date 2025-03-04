@@ -1,0 +1,16 @@
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\EmailComponent.exe
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\appsettings.json
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\EmailComponent.dll
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\EmailComponent.deps.json
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\EmailComponent.runtimeconfig.json
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\EmailComponent.pdb
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\LiquidTechnologies.XmlObjects.Runtime.dll
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\SmartAssembly.Attributes.dll
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\SendGrid.dll
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\StarkbankEcdsa.dll
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\System.Private.ServiceModel.dll
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\System.Security.Permissions.dll
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\System.ServiceModel.Primitives.dll
+F:\EmailComponent\EmailComponent\obj\Release\net6.0\PubTmp\Out\System.ServiceModel.dll
