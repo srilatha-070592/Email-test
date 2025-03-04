@@ -8,7 +8,7 @@ jobs:
     runs-on: windows-latest
  
     env:
-      solution: '*.sln'  # Explicitly specify the solution file if needed
+      solution: 'EmailComponent.sln'  # Explicitly specify the solution file if needed
       buildPlatform: 'Any CPU'
       buildConfiguration: 'Release'
  
