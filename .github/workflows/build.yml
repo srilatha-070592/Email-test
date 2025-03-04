@@ -1,0 +1,35 @@
+name: Build and Publish
+ 
+on:
+  workflow_dispatch:  
+ 
+jobs:
+  build:
+    runs-on: windows-latest
+ 
+    env:
+      solution: 'MySolution.sln'  # Explicitly specify the solution file if needed
+      buildPlatform: 'Any CPU'
+      buildConfiguration: 'Release'
+ 
+    steps:
+      # Set up NuGet
+      - name: Set up NuGet
+        uses: NuGet/setup-nuget@v1
+ 
+      # Restore NuGet packages
+      - name: Restore NuGet packages
+        run: nuget restore ${{ env.solution }}
+ 
+      # Build with MSBuild
+      - name: Build with MSBuild
+        run: |
+          msbuild ${{ env.solution }} /p:Configuration=${{ env.buildConfiguration }} /p:Platform=${{ env.buildPlatform }} /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:publishUrl="${{ github.workspace }}/artifacts"
+ 
+      # Publish build artifacts
+      - name: Publish Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: EmailcomponentArtifacts
+          path: ${{ github.workspace }}/artifacts
+ 

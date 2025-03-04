@@ -1,0 +1,10 @@
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\EmailComponent.exe
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\appsettings.json
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\EmailComponent.dll
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\EmailComponent.deps.json
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\EmailComponent.runtimeconfig.json
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\EmailComponent.pdb
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.dll
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\SendGrid.dll
+F:\EmailComponent\EmailComponent\obj\Release\net5.0\PubTmp\Out\StarkbankEcdsa.dll
